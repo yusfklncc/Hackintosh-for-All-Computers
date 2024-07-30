@@ -53,7 +53,7 @@ I took the screenshots from my current computer. According to this guide, here a
 
 <br>
 
-To check if your hardware is incompatible, I leave links below.
+To check if your hardware is incompatible, use the links below.
 - [Processors](https://dortania.github.io/Anti-Hackintosh-Buyers-Guide/CPU.html#cpus-to-avoid)
   - Intel Core i5-10200H (Unfortunately, this processor's integrated graphics card is not supported by macOS.)
 - [Graphics Cards](https://dortania.github.io/GPU-Buyers-Guide/)
@@ -82,12 +82,12 @@ To check if your hardware is incompatible, I leave links below.
 
 ### Write macOS Image
 
-- Extract RAW file from ZIP to the desktop.
+- Extract the RAW file from ZIP to the desktop.
 - Download [balenaEtcher](https://www.balena.io/etcher/).
-- Open program and click to "Flash from file"
+- Open the program and click to "Flash from file"
 - Select the OSX image `(.raw file)` from the popup window.
-- Click to "Select target" and select USB drive.
-- Click to "Flash!" and select allow in popup window.
+- Click "Select target" and select your USB drive.
+- Click "Flash!" and select allow in the popup window.
 <p align="center">
   <img src="https://user-images.githubusercontent.com/78423442/154849816-0a04602a-9064-4780-9d4e-ed86254b4fea.png"></p>
 
@@ -97,7 +97,7 @@ To check if your hardware is incompatible, I leave links below.
 
 ### Set the EFI Folder
 
-- When you plug-in USB back, you can see EFI partition in "My Computer"
+- When you plug back in the USB, you can see EFI partition in "My Computer"
 - Open EFI partition.
 - Copy your EFI folder to EFI partititon.
   - If you don't have EFI. You can use my global EFI.
